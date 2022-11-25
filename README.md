@@ -1,5 +1,5 @@
 
-# Conexão SQLSRV com laradock
+# SQL SERVER connection with laradock
 
 ### Requirements
 
@@ -46,7 +46,7 @@ pecl install pdo_sqlsrv-5.9.0preview1
 ## Edit `/etc/ssl/openssl.cnf`
 
 ```bash
-# tanto no container php-fpm quanto no workspace
+# both in php-fpm container and workspace
 
 # Add this line at the top
 openssl_conf = openssl_init
